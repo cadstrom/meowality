@@ -5,4 +5,10 @@ project:
     - file: hardware/mainboard/meowality-main.kicad_pcb
       dru:
         file: oshpark-2layer
-  schematics: []
+  schematics:
+    - file: hardware/mainboard/io.kicad_sch
+    - file: hardware/mainboard/lcd_cam.kicad_sch
+    - file: hardware/mainboard/meowality-main.kicad_sch
+    - file: hardware/mainboard/periph.kicad_sch
+    - file: hardware/mainboard/power.kicad_sch
+    - file: hardware/mainboard/som.kicad_sch
